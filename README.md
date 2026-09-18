@@ -1,4 +1,20 @@
-# Fraud detection using machine learning
-Với bối cảnh tăng trưởng người dùng sử dụng Internet, các mail, tin nhắn rác cũng ngày một gia tăng với các thủ đoạn ngày một tinh vi. Các mail, tin nhắn này được sử dụng cho các mục đích xấu như lừa đảo hay chiếm đạt thông tin. Vì vậy mà việc xác định và nhận diện các mail spam, mail lừa đảo này là cần thiết, chính vì thế mà nhóm quyết định áp dụng máy học vào giải quyết vấn đề này.
+# Spam / Fraud Mail Detection — Reference Fork
 
-Mục tiêu của đề tài/dự án này là giải quyết được vấn đề nhận diện, phân loại các loại mail xem đâu là mail lừa đảo và đâu là mail bình thường. Việc phân loại được các mail, tin nhắn rác sẽ giúp tiết kiệm được thời gian, tiền, và không gian kho lưu trữ. Đề tài cũng hi vọng sẽ phần nào giúp biến Internet trở thành một nơi an toàn hơn cho tất cả mọi người và nâng cao tính cảnh giác đối với các loại thư văn bản được gửi tới người đọc.
+> **Attribution:** this repository is a fork of [tuankhoi18/Spam-mail-detection-using-machine-learning](https://github.com/tuankhoi18/Spam-mail-detection-using-machine-learning). The upstream implementation should be treated as the original source.
+
+I keep this fork as coursework / research reference material related to applying machine-learning methods to spam and potentially fraudulent email classification.
+
+## Problem context
+
+Spam and phishing-style messages can waste storage and attention and may be used to obtain sensitive information. A common introductory ML formulation is binary text classification:
+
+```text
+email / message text
+    -> text preprocessing / features
+    -> classifier
+    -> spam / non-spam
+```
+
+## Portfolio note
+
+This fork is **not presented as an original standalone project** on my portfolio. Personal work, if any, should be distinguished from upstream code through the Git commit history or separate experiments.
